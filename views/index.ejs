@@ -1,0 +1,76 @@
+<%- include ('partial/header.ejs') %>
+
+    <div class="jumbotron text-justify m-0 p-0">
+        <iframe src="/head" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="container">
+        <div class="profiles row">
+            <div class="main-profile col-sm-6 col-lg-3">
+                <a href="/ishu">
+                    <img src="./images/ishu.jpg" alt="image of ishu nagar">
+                    <p>Ishu Nagar</p>
+                </a>
+            </div>
+            <div class="main-profile col-sm-6 col-lg-3">
+                <a href="/rishi">
+                    <img src="./images/rishi.jpg" alt="image of rishi jagariya">
+                    <p>Rishi Jagariya</p>
+                </a>
+            </div>
+            <div class="main-profile col-sm-6 col-lg-3">
+                <a href="/sudha">
+                    <img src="./images/sudhanshu.jpg" alt="image of Sudhanshu arya">
+                    <p>Sudhanshu Arya</p>
+                </a>
+            </div>
+            <div class="main-profile col-sm-6 col-lg-3">
+                <a href="/jatin">
+                    <img src="./images/jatin.jpg" alt="image of jatin rathore">
+                    <p>Jatin Rathore</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="container prev">
+            <a href="/ishu"><img src="./images/ishu.png" alt="" class="main-profile"></a>
+            <div class="show">Ishu Nagar</div>
+        </div>
+        <hr>
+        <div class="container prev">
+            <a href="/rishi"><img src="./images/rishi.png" alt="" class="main-profile"></a>
+            <div class="show">Rishi Jagariya</div>
+        </div>
+        <hr>
+        <div class="container prev">
+            <a href="/sudha"><img src="./images/sudhanshu.png" alt="" class="main-profile"></a>
+            <div class="show">Sudhanshu Arya</div>
+        </div>
+        <hr>
+        <div class="container prev">
+            <a href="/jatin"><img src="./images/jatin.png" alt="" class="main-profile"></a>
+            <div class="show">Jatin Rathore</div>
+        </div>
+    </div> -->
+
+
+    <!-- <script>
+        var img = document.querySelectorAll('.main-profile');
+        var show = document.getElementsByClassName('show');
+
+        for (let index = 0; index < img.length; index++) {
+            const images = img[index];
+            const showcase = show[index];
+            images.addEventListener('mouseover', function(event){
+                showcase.style.display = "inline";
+            })
+            images.addEventListener('mouseout', function(event){
+                showcase.style.display = "none";
+            })  
+        }
+
+    </script> -->
+
+    <%- include ('partial/footer.ejs') %>
